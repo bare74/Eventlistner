@@ -168,12 +168,12 @@ document.addEventListener("keydown", function (e) {
 
 document.addEventListener("keyup", function (e) {
   if (e.key === "ArrowUp") {
-    arrowUp.style.backgroundColor = "white";
+    arrowUp.style.backgroundColor = " ";
   } else if (e.key === "ArrowDown") {
-    arrowDown.style.backgroundColor = "white";
+    arrowDown.style.backgroundColor = " ";
   } else if (e.key === "ArrowLeft") {
-    arrowLeft.style.backgroundColor = "white";
+    arrowLeft.style.backgroundColor = " ";
   } else if (e.key === "ArrowRight") {
-    arrowRight.style.backgroundColor = "white";
+    arrowRight.style.backgroundColor = " ";
   }
 });
