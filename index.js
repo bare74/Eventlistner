@@ -137,18 +137,26 @@
 let arrowUp = document.createElement("button");
 document.body.append(arrowUp);
 arrowUp.innerText = "˄";
+arrowUp.style.width = "30px";
+arrowUp.style.height = "30px";
 
 let arrowDown = document.createElement("button");
 document.body.append(arrowDown);
 arrowDown.innerText = "˅";
+arrowDown.style.width = "30px";
+arrowDown.style.height = "30px";
 
 let arrowLeft = document.createElement("button");
 document.body.append(arrowLeft);
 arrowLeft.innerText = "<";
+arrowLeft.style.width = "30px";
+arrowLeft.style.height = "30px";
 
 let arrowRight = document.createElement("button");
 document.body.append(arrowRight);
 arrowRight.innerText = ">";
+arrowRight.style.width = "30px";
+arrowRight.style.height = "30px";
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowUp") {
